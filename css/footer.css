@@ -1,0 +1,126 @@
+.footer {
+    position: relative;
+    height: 500px;
+    z-index: 2;
+    background-color: #00042c;
+    margin: 0;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-shape {
+    position: absolute;
+    right: 70px;
+    top: 70px;
+    animation: rotate 12s linear infinite;
+    /* transform-origin: center center; */
+}
+
+.footer-image {
+    width: 300px;
+    height: 300px;
+    color: #fff;
+    object-fit: cover; /* Đảm bảo hình ảnh không bị biến dạng */
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.services-title{
+    color: #ffffff;
+    margin-bottom: 25px;
+    font-size: 25px;
+    position: relative;
+    border-bottom: 2px solid #060c4a;
+    padding-bottom: 10px;
+    left: 20px;
+}
+
+.services-title::before {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background-color: #ffffff;
+}
+
+.menu-services ul li{
+    margin-bottom: 30px;
+}
+
+.menu-services ul li a{
+    color: #d9d6d6;
+    position: relative;
+    /* padding-left: 20px; */
+    text-transform: none;
+    transition: left 0.6s ease;
+    left: -20px;
+}
+
+.menu-services ul li a:hover{
+    color: #1c9ac2;
+    left: 5px;
+}
+
+.link-tag-service{
+
+}
+
+.writer{
+    background-color: #0d1240;
+    height: 70px;
+    font-size: 1.2rem;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+}
+
+.writer a{
+    color: #1c9ac2;
+}
+
+ @media only screen and (max-width: 1600px) and (min-width: 601px) {
+    .footer {
+        height: auto;
+    }
+ 
+ }
+
+ @media only screen and (max-width: 700px) and (min-width: 601px) {
+    .writer{
+        font-size: 1.0rem;
+        word-wrap: break-word;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 10px;
+        padding: 20px;
+    }
+ 
+ }
+
+@media only screen and (max-width: 600px) {
+    .footer {
+        height: auto;
+    }
+
+    .writer{
+        font-size: 1.0rem;
+        word-wrap: break-word;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 10px;
+        padding: 20px;
+    }
+ 
+ }

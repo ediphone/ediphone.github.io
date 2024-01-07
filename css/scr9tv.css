@@ -1,0 +1,21 @@
+.banner-sposor{
+    background-color: #fff;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.board{
+    width: calc(100% - 200px);
+    text-align: center;
+}
+
+.logo-banner{
+    max-width: 120px;
+    max-height: 40px;
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+    margin-bottom: 40px;
+}
