@@ -1,0 +1,92 @@
+.screen_4 .box {
+    text-align: center;
+    padding: 20px;
+    margin-top: 140px;
+    font-family: "Outfit", Helvetica;
+}
+
+.logo-screen-3{
+    position: absolute;
+    max-width: 120px;
+    top: -80px;
+}
+
+.screen_4 .box .title{
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.screen_4 .box .desc{
+    font-size: 32px;
+    line-height: 35px;
+}
+
+.screen_4 .img1{
+    max-width: 80%;
+    margin-left: 15%;
+}
+
+@media only screen and (max-width: 1600px) {
+    .screen_4 .img1{
+        max-width: 450px;
+    }
+
+    .logo-screen-3{
+        position: absolute;
+        max-width: 100px;
+        top: -70px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .screen_4 .img1{
+        margin-top: 100px;
+        max-width: 90%;
+        align-items: center;
+
+    }
+    .logo-screen-3{
+        position: absolute;
+        max-width: 90px;
+        top: -35px;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .screen_4 .img1{
+        margin-top: 100px;
+        max-width: 80%;
+        align-items: center;
+
+    }
+    .logo-screen-3{
+        position: absolute;
+        max-width: 70px;
+        top: -20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .screen_4 .img1{
+        /* margin-top: 100px; */
+        max-width: 90%;
+        align-items: center;
+    }
+
+    .logo-screen-3{
+        position: absolute;
+        width: 50px;
+        top: -20px;
+    }
+    
+    .screen_4 .box .title{
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 26.4px;
+    }
+    
+    .screen_4 .box .desc{
+        font-size: 13px;
+        line-height: 15px;
+    }
+}

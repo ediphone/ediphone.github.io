@@ -1,0 +1,173 @@
+.screen-2{
+    background: linear-gradient(180deg, #131636 0%, #2333CB   100%);
+}
+
+.column-1{
+    width: 48px;
+    height: 79px;
+    background-color: #f2a52c;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.column-2{
+    width: 48px;
+    height: 109px;
+    position: relative;
+    background-color: #f2a52c;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.column-3{
+    width: 48px;
+    height: 66px;
+    position: relative;
+    background-color: #f2a52c;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.overlap-2-1{
+    margin-top: 200px;
+}
+
+.overlap-2{
+    position: absolute;
+    right: 100px;
+}
+
+.image-screen-2{
+    max-width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.screen-2 .box .title img{
+    max-width: 60px;
+    max-height: 60px;
+    position: absolute;
+}
+
+.screen-2 .title-text{
+    text-align: center;
+    font-size: 42px;
+}
+
+.screen-2 .description{
+    font-size: 36px;
+    text-align: center;
+    color: #FFF;
+}
+
+.box{
+    width: auto;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 0px 2px #FFF;
+}
+@media only screen and (max-width: 1920px){
+    .image-screen-2{
+        max-width: 80%;
+        margin-top: 20%;
+    }
+}
+@media only screen and (max-width: 1750px){
+    .image-screen-2{
+        max-width: 80%;
+        margin-top: 30%;
+    }
+}
+@media only screen and (max-width: 1600px){
+    .image-screen-2{
+        max-width: 80%;
+        margin-top: 40%;
+    }
+    .screen-2 .title-text{
+        text-align: center;
+        font-size: 38px;
+    }
+    
+    .screen-2 .description{
+        font-size: 34px;
+        text-align: center;
+        color: #FFF;
+    }
+}
+@media only screen and (max-width: 1450px){
+    .image-screen-2{
+        max-width: 80%;
+        margin-top: 60%;
+    }
+    .screen-2 .title-text{
+        text-align: center;
+        font-size: 36px;
+    }
+    .screen-2 .mc{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .screen-2 .description{
+        font-size: 32px;
+        text-align: center;
+        color: #FFF;
+    }
+}
+@media only screen and (max-width: 1350px){
+    .screen-2 .title-text{
+        font-size: 32px;
+    }
+    
+    .screen-2 .description{
+        font-size: 30px;
+    }
+}
+@media only screen and (max-width: 1199px){
+    .image-screen-2{
+        max-width: 80%;
+        margin-top: 10%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .image-screen-2{
+        max-width: 300px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }   
+
+    .screen-2 .title-text{
+        text-align: center;
+        font-size: 16px;
+        margin-top: 5px;
+        margin-left: 30px;
+    }
+    
+    .screen-2 .description{
+        font-size: 12px;
+        
+    }
+
+    .screen-2 .box .title{
+        position: relative;
+    }
+
+    .screen-2 .box .title img{
+        max-width: 40px;
+        max-height: 40px;
+        position: absolute;
+        top: -10px;
+    }
+
+    .column-1{
+        width: 20px;
+        height: 59px;
+    }
+    
+    .column-2{
+        width: 20px;
+        height: 89px;
+    }
+    
+    .column-3{
+        width: 20px;
+        height: 46px;
+    }
+}

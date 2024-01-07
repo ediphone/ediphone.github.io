@@ -1,0 +1,156 @@
+/* .screen_5{
+    background: linear-gradient( 0deg, #2333CB 30%, #131636 100% );
+} */
+.screen_5 .box {
+    text-align: center;
+    padding: 20px;
+    margin-top: 140px;
+}
+.logo-screen-4{
+    position: absolute;
+    max-width: 120px;
+    top: -80px;
+}
+.logo-screen-6{
+    position: absolute;
+    max-width: 120px;
+    top: -80px;
+}
+.logo-screen-5{
+    position: absolute;
+    max-width: 120px;
+    top: -80px;
+}
+
+.screen_5 .box .title{
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.screen_5 .box .desc{
+    font-size: 32px;
+    line-height: 35px;
+    
+}
+
+.screen_5 .img1{
+    max-width: 600px;
+    margin-left: 100px;
+}
+
+@media only screen and (max-width: 1600px) {
+    .screen_5 .img1{
+        max-width: 450px;
+    }
+    .logo-screen-4{
+        max-width: 100px;
+        top: -80px;
+    }
+    .logo-screen-6{
+        max-width: 100px;
+        top: -80px;
+    }
+    .logo-screen-5{
+        max-width: 100px;
+        top: -80px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .screen_5 .img1{
+        margin-top: 100px;
+        max-width: 90%;
+        margin-left: 100px;
+    }
+    .scr5{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .logo-screen-4{
+        max-width: 90px;
+        top: -50px;
+    }
+    .logo-screen-5{
+        max-width: 90px;
+        top: -70px;
+    }
+    .logo-screen-6{
+        max-width: 90px;
+        top: 100px;
+    }
+}
+
+@media only screen and (max-width: 998px) {
+    .screen_5 .img1{
+        margin-top: 100px;
+        max-width: 90%;
+        /* margin-left: 100px; */
+    }
+    .logo-screen-4{
+        max-width: 70px;
+        top: -50px;
+    }
+    .logo-screen-6{
+        max-width: 70px;
+        top: 100px;
+    }
+    .logo-screen-5{
+        max-width: 70px;
+        top: -160px;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    
+    .scr5{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+ 
+   
+    .screen_5 .img1{
+        max-width: 90%;
+        margin-left: 0px;
+    }
+    .logo-screen-4{
+        max-width: 50px;
+        padding-top: 50px;
+        top: -70px;
+    }
+    .logo-screen-6{
+        max-width: 50px;
+        padding-top: 50px;
+        top: 50px;
+    }
+
+    .logo-screen-5{
+        position: absolute;
+        max-width: 70px;
+        /* top: -40px; */
+    }
+    
+    .screen_5 .box .title{
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 26.4px;
+    }
+    
+    .screen_5 .box .desc{
+        font-size: 13px;
+        line-height: 15px;
+    }
+}
+@media only screen and (max-width: 475px) {
+    .logo-screen-4{
+        max-width: 50px;
+        padding-top: 50px;
+        /* margin-top: 100px; */
+    }
+    .logo-screen-5{
+        max-width: 50px;
+        top: -20px;
+    }
+}
